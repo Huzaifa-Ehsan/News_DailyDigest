@@ -8,6 +8,7 @@ import { useState } from 'react';
 
 export default function App() {
   // Restart the development server for setup of custom enviornment variable
+  /* Generate your own apikey from https://newsapi.org/ */
   const apiKey = process.env.REACT_APP_NEWS_API
   const pageSize = 10;
   const [progress, setProgress] = useState(0);
